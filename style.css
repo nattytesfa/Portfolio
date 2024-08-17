@@ -216,10 +216,13 @@ section h2 {
 }
 
 .skills-list,
+.project-list,
 div.project p {
     color: rgb(232, 226, 226);
 
 }
+
+
 
 span {
     color: white;
