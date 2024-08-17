@@ -1,0 +1,226 @@
+body {
+    font-family: sans-serif;
+    background-color: #5c92eaeb;
+    color: #333;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+section:hover h2,
+section:hover ul li,
+section:hover div.project p {
+    color: #292929;
+}
+
+header {
+    background-color: #d2cccc;
+    color: #000;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+h1.say-hello {
+    margin-bottom: 0;
+    color: #666;
+    font-weight: bold;
+}
+
+h1.name {
+    margin-top: 0;
+    color: #3498db;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3498db;
+    animation: imageFadeIn 2s ease-in;
+}
+
+@keyframes imageFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.about-me {
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+nav {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: color 1s ease-in-out;
+
+}
+
+nav a {
+    color: #999;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1b2127;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+main {
+    padding: 20px;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p {
+    color: rgb(80, 88, 77);
+}
+
+.footer-div {
+    background-color: rgb(99, 91, 91);
+}
+
+.social-media {
+    padding-top: 1rem;
+}
+
+
+.copyright p {
+    width: 100%;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(99, 91, 91);
+
+}
+
+footer a img {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 5px;
+    border: 2px solid #d6d83f;
+    transition: border 0.5s ease-in-out;
+
+}
+
+footer a img:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.contents {
+    display: flex;
+}
+
+.expdiv,
+.projdiv,
+.techdiv,
+.commitdiv {
+    display: flex;
+    align-items: center;
+}
+
+.expnum {
+    font-size: 3em;
+    margin-right: 10px;
+    margin-left: 250px;
+    color: white;
+}
+
+.projnum,
+.technum,
+.commitnum {
+    font-size: 3em;
+    margin-right: 10px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+section {
+    background-color: #292929;
+    color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+section:hover {
+    background-color: #938d8d;
+
+}
+
+section h2 {
+    text-align: center;
+    color: #ddd;
+}
+
+.skill {
+    text-align: center;
+    margin: 10px;
+}
+
+.about-me-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.skills-list,
+div.project p {
+    color: rgb(232, 226, 226);
+
+}
+
+span {
+    color: white;
+}
